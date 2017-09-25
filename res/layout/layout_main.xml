@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent">
+     <ImageView 
+        android:id="@+id/front_rcode" 
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+     <com.syu.dvr.widget.StateSignLayout
+         android:id="@+id/state_sign_layout"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:gravity="center" />
+     
+     <LinearLayout 
+         android:layout_marginLeft="32dp"
+         android:layout_marginBottom="32dp"
+         android:layout_alignParentBottom="true"
+         android:id="@+id/lock_shutter_layout"
+         android:orientation="vertical"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+        <Button
+           android:layout_marginBottom="85dp" 
+           android:id="@+id/lock"
+           style="@style/style_setting_button"
+           android:background="@drawable/d_uicommon_lock"/>
+        <Button
+         android:id="@+id/shutter"
+         android:layout_gravity="bottom"
+         style="@style/style_setting_button"
+         android:background="@drawable/d_uicommon_shutter"/>
+     </LinearLayout>
+     
+     <LinearLayout 
+         android:id="@+id/hide_record_layout"
+         android:layout_marginBottom="32dp"
+         android:layout_marginLeft="185dp"
+         android:layout_alignParentBottom="true"
+         android:orientation="horizontal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+        <Button
+            android:layout_gravity="bottom"
+            android:id="@+id/start"
+            style="@style/style_setting_button"
+            android:background="@drawable/d_uicommon_btncamcorder" />
+        <Button
+            android:layout_marginLeft="85dp" 
+            android:layout_gravity="bottom"
+            android:id="@+id/playblack"
+            style="@style/style_setting_button"
+            android:background="@drawable/d_uicommon_playback" />
+        <Button
+            android:layout_marginLeft="85dp" 
+             android:id="@+id/setting"
+             style="@style/style_setting_button"
+             android:background="@drawable/d_uicommon_setting"/>
+         <Button
+             android:layout_marginLeft="85dp" 
+             android:id="@+id/audio_record"
+             style="@style/style_setting_button"
+             android:background="@drawable/d_uicommon_audio"/>
+          <Button
+             android:layout_marginLeft="85dp" 
+             android:id="@+id/help"
+             style="@style/style_setting_button"
+             android:background="@drawable/d_uicommon_help"/>
+     </LinearLayout>
+  <TextView
+      android:visibility="gone"
+      android:textColor="@color/red"
+      android:id="@+id/recording_tips"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@+id/front_rcode"
+      android:layout_marginBottom="14dp"
+      android:layout_toRightOf="@+id/front_rcode"
+      android:gravity="center"
+      android:textSize="20sp"
+      android:text="@string/recording_tips"/>
+   <TextView
+      android:background="@drawable/toast_bg" 
+      android:visibility="gone"
+      android:id="@+id/waning"
+      android:textSize="20sp"
+      android:textColor="@color/red"
+      android:layout_centerInParent="true"
+      android:layout_height="100dp"
+      android:layout_width="300dp"
+      android:gravity="center"/>
+</RelativeLayout>
+
+    

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+	<LinearLayout 
+	android:id="@+id/linear_show"
+	android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" >
+        <LinearLayout
+            android:id="@+id/btn_prev_black"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <Button
+                android:layout_marginLeft="15dp"
+                android:clickable="true"
+                android:id="@+id/left_img"
+                android:layout_width="14dp"
+                android:layout_height="20dp"
+             	android:background="@drawable/black"
+                android:gravity="left" />
+        </LinearLayout>
+
+        <LinearLayout
+           
+            android:id="@+id/show_time"
+            android:onClick="OnClick"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               	android:text="1"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               	android:text="@string/str_text_year"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+             <TextView
+                android:id="@+id/tv_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               	android:text="1"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               	android:text="@string/Str_text_month"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/tv_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               android:layout_marginLeft="2dp"
+               android:text="2"
+               android:textColor="#000000"
+               android:textSize="15sp" />
+            <TextView
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/str_text_data"
+                android:layout_marginLeft="2dp"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            <View 
+                android:layout_marginLeft="2dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/pull_down"/>
+        </LinearLayout>
+            <Spinner 
+            android:visibility="gone"    
+            android:requiresFadingEdge="none"    
+            android:popupBackground="#f0000000"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:spinnerMode="dropdown"
+            android:id="@+id/spinner"/>
+
+       
+        <LinearLayout
+            android:id="@+id/btn_text_exit"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+           <TextView
+               	android:layout_gravity="right"
+               	android:layout_marginRight="20dp"
+               	android:clickable="true"
+                android:id="@+id/right_sel"
+                android:layout_width="wrap_content"
+                android:textColor="#000000"
+                android:layout_height="25dp"
+                android:enabled="false"
+             	android:text="@string/Str_text_edit"/>
+        </LinearLayout>
+       
+    </LinearLayout>
+   <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/divider_folder_list"/>
+    <ListView 
+       android:id="@+id/recList"
+       android:layout_weight="1"
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+        android:layout_margin="5.0px"
+        android:layout_marginBottom="0dp"
+        android:focusable="false"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:visibility="visible" />
+     <TextView 
+         android:visibility="gone"
+	     android:background="@android:color/darker_gray"
+	     android:gravity="center"
+	     android:textSize="20sp"
+	     android:id="@+id/delete_video"
+	     android:text="@string/Str_text_delete"
+	     android:layout_width="fill_parent"
+	     android:layout_height="60dp"/>
+	    
+	</LinearLayout>
+</RelativeLayout>

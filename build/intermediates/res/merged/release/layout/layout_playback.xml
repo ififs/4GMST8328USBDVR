@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+	
+    <RelativeLayout
+        android:id="@+id/tittle"
+        android:layout_alignParentTop="true"
+        android:background="#353535"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" >
+        
+        <LinearLayout
+            android:id="@+id/show_time"
+            android:onClick="OnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               	android:text="1"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               	android:text="@string/str_text_year"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+             <TextView
+                android:id="@+id/tv_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               	android:text="1"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               	android:text="@string/Str_text_month"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/tv_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               android:layout_marginLeft="2dp"
+               android:text="2"
+               android:textColor="@color/white"
+               android:textSize="20sp" />
+            <TextView
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/str_text_data"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+            <View 
+                android:visibility="gone"
+                android:layout_marginLeft="2dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/pull_down"/>
+        </LinearLayout>
+        
+        <TextView 
+            android:text="@string/Str_text_edit"
+            android:id="@+id/btn_edit"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select_bg"/>
+        <TextView 
+            android:text="@string/str_tip_cancle"
+             android:gravity="center"
+            android:visibility="gone"
+             android:textSize="20sp"
+            android:id="@+id/btn_cansel"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select_bg"/>
+        <TextView 
+            android:textSize="20sp"
+            android:text="@string/Str_text_allsele"
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/btn_select"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="145dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select_bg"/>
+    </RelativeLayout>
+  <!--  <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/divider_folder_list"/> -->
+    <ListView 
+       android:layout_below="@id/tittle"
+       android:id="@+id/recList"
+       android:layout_width="fill_parent"
+       android:layout_height="match_parent"
+        android:layout_margin="5.0px"
+        android:layout_marginBottom="0dp"
+        android:focusable="false"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        
+        android:visibility="visible" />
+     <TextView 
+         android:layout_alignParentBottom="true"
+	     android:background="@android:color/transparent"
+	     android:gravity="center"
+	     android:textSize="20sp"
+	     android:id="@+id/delete_video"
+	     android:layout_width="fill_parent"
+	     android:layout_height="60dp"/>
+     
+     <LinearLayout 
+        android:visibility="gone"
+         android:id="@+id/loading_layout"
+         android:background="@color/white"
+         android:layout_alignParentBottom="true"
+         android:orientation="horizontal"
+         android:gravity="center_horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="30dp">
+        <ProgressBar 
+       		android:layout_gravity="center"
+     		android:layout_width="25dp"
+     		android:layout_height="25dp"/>
+        <TextView
+        android:layout_marginLeft="10dp" 
+	    android:layout_gravity="center"
+	    android:text="@string/data_add"
+	    android:textSize="15sp"
+	    android:gravity="center"
+	    android:textColor="@color/gray"
+	    android:layout_width="wrap_content"
+	    android:layout_height="25dp"/>
+         
+     </LinearLayout>   
+	
+</RelativeLayout>

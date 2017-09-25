@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/path"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <GridView
+        android:gravity="center"
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black"
+        android:clickable="true"
+        android:clipChildren="true"
+       	android:columnWidth="71dp"
+        android:horizontalSpacing="1.0dip"
+        android:scrollbars="none"
+        android:listSelector="@null"
+        android:numColumns="5"
+        android:paddingBottom="1.0dip"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1.0dip" />
+        <LinearLayout 
+            android:visibility="gone"
+            android:id="@+id/settinglayout"
+            android:background="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_height="50dp">
+            <TextView 
+            	android:textSize="15sp"    
+            	android:id="@+id/cancel"
+            	android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:text="@string/str_tip_cancle"
+                android:layout_height="match_parent"
+                android:layout_weight="1"></TextView>    
+                <TextView 
+                android:textSize="15sp"    
+                android:id="@+id/black"    
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:text="@string/str_btn_back"
+                android:layout_height="match_parent"
+                android:layout_weight="1"></TextView>    
+                <TextView 
+                android:textSize="15sp"    
+                android:id="@+id/determine"    
+                android:textColor="@color/black"
+                android:gravity="center"    
+                android:layout_width="wrap_content"
+                android:text="@string/str_btn_sure"
+                android:layout_height="match_parent"
+                android:layout_weight="1"></TextView>    
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</LinearLayout>

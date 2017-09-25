@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="framework_intermediates_classes">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/framework_intermediates_classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

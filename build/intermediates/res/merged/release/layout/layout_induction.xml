@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   		android:background="@drawable/bk2"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"  >
+         <LinearLayout
+            android:background="@drawable/induction_bg"
+        	android:layout_marginRight="15dp"
+        	android:layout_marginTop="10dp"
+        	android:layout_marginLeft="20sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:visibility="visible" >
+
+                <TextView
+                   android:layout_marginLeft="20dp"
+                    android:layout_alignParentLeft="true"
+                    style="@style/style_induction_text"
+                    android:gravity="center_vertical"
+                    android:text="@string/str_text_travel" />
+               
+                <LinearLayout
+                    android:layout_marginRight="15sp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_alignParentRight="true" >
+                    <TextView 
+                    android:id="@+id/exercise_sensitivity"
+                   	style="@style/style_setting_right"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/bg_function"/>
+                </LinearLayout>
+            </RelativeLayout>
+			<View 
+			    android:layout_width="fill_parent"
+			    android:background="@drawable/view"
+			    android:layout_height="wrap_content"/>
+			<RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:visibility="visible" >
+
+                <TextView
+                   android:layout_marginLeft="20dp"
+                    android:layout_alignParentLeft="true"
+                    style="@style/style_induction_text"
+                    android:gravity="center_vertical"
+                    android:text="@string/str_text_flameout" />
+               
+                <LinearLayout
+                    android:layout_marginRight="15sp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    
+                    android:orientation="horizontal"
+                    android:layout_alignParentRight="true" >
+                    
+                    <TextView 
+                    android:id="@+id/collision_sensitivity"
+                   	style="@style/style_setting_right"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/bg_function"/>
+                </LinearLayout>
+            </RelativeLayout>
+			<View android:layout_width="fill_parent"
+			    android:background="@drawable/view"
+			    android:layout_height="wrap_content"/>
+			
+			<RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:visibility="visible" >
+
+                <TextView
+                   android:layout_marginLeft="20dp"
+                    android:layout_alignParentLeft="true"
+                    style="@style/style_induction_text"
+                    android:gravity="center_vertical"
+                    android:text="@string/str_text_shock_time" />
+               
+                <LinearLayout
+                    android:layout_marginRight="15sp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    
+                    android:orientation="horizontal"
+                    android:layout_alignParentRight="true" >
+                    
+                   <TextView 
+                    android:id="@+id/video_recording_time"
+                   	style="@style/style_setting_right"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/bg_function"/>
+                 
+                </LinearLayout>
+            </RelativeLayout>
+			<View android:layout_width="fill_parent"
+			    android:background="@drawable/view"
+			    android:layout_height="wrap_content"/>
+			<RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:visibility="visible" >
+
+                <TextView
+                   android:layout_marginLeft="20dp"
+                    android:layout_alignParentLeft="true"
+                    style="@style/style_induction_text"
+                    android:gravity="center_vertical"
+                    android:text="@string/str_text_shock_screen" />
+                <Button
+                   
+                    android:id="@+id/id_shock_screen"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                     android:layout_alignParentRight="true"
+                    style="@style/style_induction_able"
+                    android:background="@drawable/induction_off"/>
+                
+                
+            </RelativeLayout>
+            <View android:layout_width="fill_parent"
+			    android:background="@drawable/view"
+			    android:layout_height="wrap_content"/>
+			<RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:visibility="visible" >
+
+                <TextView
+                   android:layout_marginLeft="20dp"
+                    android:layout_alignParentLeft="true"
+                    style="@style/style_induction_text"
+                    android:gravity="center_vertical"
+                    android:text="@string/str_text_plug_key" />
+                <Button
+                   
+                    android:id="@+id/id_plug_key"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                     android:layout_alignParentRight="true"
+                    style="@style/style_induction_able"
+                    android:background="@drawable/induction_off"/>
+            </RelativeLayout>
+            
+            <View android:layout_width="fill_parent"
+			    android:background="@drawable/view"
+			    android:layout_height="wrap_content"/>
+			
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:visibility="visible" >
+
+                <TextView
+                   android:layout_marginLeft="20dp"
+                    android:layout_alignParentLeft="true"
+                    style="@style/style_induction_text"
+                    android:gravity="center_vertical"
+                    android:text="@string/str_text_shock_key" />
+                <Button
+                   
+                    android:id="@+id/id_shock_key"
+                    android:layout_marginRight="15sp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    style="@style/style_induction_able"
+                    android:background="@drawable/induction_off"/>
+            </RelativeLayout>
+			
+			
+		</LinearLayout>
+    </ScrollView>
+
+

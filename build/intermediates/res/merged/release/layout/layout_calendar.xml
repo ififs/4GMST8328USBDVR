@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+   <!-- <RelativeLayout
+       	
+        android:id="@+id/lay_title"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#ff0099cc">
+        <TextView
+            android:id="@+id/tv_top"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:text="@string/str_please_seletime"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+		
+
+    </RelativeLayout> -->
+
+    <LinearLayout
+        android:id="@+id/time_sub_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#353535"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" >
+        
+        <LinearLayout 
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+           <ImageView
+            android:id="@+id/prn_year"   
+            android:src="@drawable/up_bg"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+           <LinearLayout 
+               android:layout_marginLeft="-5dp"
+               android:layout_marginRight="-5dp"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:background="@drawable/white_text_bg"
+               android:layout_height="match_parent">
+               <TextView 
+               android:typeface="monospace"    
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:id="@+id/prv_year"
+               android:textSize="25sp"
+               android:textColor="@color/black"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+           </LinearLayout>
+           <ImageView
+            android:id="@+id/next_year" 
+            android:src="@drawable/down_bg"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+           
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+           <ImageView
+            android:id="@+id/btn_prev_month"   
+            android:src="@drawable/up_bg"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+           <LinearLayout
+               android:layout_marginLeft="-5dp"
+               android:layout_marginRight="-5dp" 
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:background="@drawable/white_text_bg"
+               android:layout_height="match_parent">
+              <TextView 
+               android:typeface="monospace"
+               android:id="@+id/tv_month"    
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:textSize="25sp"
+               android:textColor="@color/black"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+           </LinearLayout>
+           <ImageView
+           android:id="@+id/btn_next_month"    
+            android:src="@drawable/down_bg"     
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+           
+        </LinearLayout>
+        
+        
+
+       <!--  <LinearLayout
+            
+            android:id="@+id/btn_prev_month"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:clickable="false"
+                android:id="@+id/left_img"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+             	android:src="@drawable/left_btn"
+                android:duplicateParentState="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                
+                android:textColor="#ffffffff"
+                android:textSize="21.0dip" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_next_month"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+           <ImageView
+               android:layout_alignParentRight="true"
+                android:clickable="true"
+                android:id="@+id/right_sel"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="5dp"
+             	android:background="@drawable/right_btn"
+                android:duplicateParentState="true" />
+        </RelativeLayout> -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/week_show"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:background="#ff8091a8" >
+
+        <TextView
+            style="@style/weekName"
+            android:text="@string/sunday" />
+
+        <TextView
+            style="@style/weekName"
+            android:text="@string/monday" />
+
+        <TextView
+            style="@style/weekName"
+            android:text="@string/tuesday" />
+
+        <TextView
+            style="@style/weekName"
+            android:text="@string/wednesday" />
+
+        <TextView
+            style="@style/weekName"
+            android:text="@string/thursday" />
+
+        <TextView
+            style="@style/weekName"
+            android:text="@string/friday" />
+
+        <TextView
+            style="@style/weekName"
+            android:text="@string/saturday" />
+    </LinearLayout>
+
+    <GridView
+        
+        android:gravity="center"
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:clickable="true"
+        android:clipChildren="true"
+        android:horizontalSpacing="1.0dip"
+        android:scrollbars="none"
+        android:listSelector="@null"
+        android:numColumns="7"
+        android:paddingBottom="1.0dip"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1.0dip" />
+
+</LinearLayout>

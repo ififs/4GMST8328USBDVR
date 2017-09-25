@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bk2"
+    android:layout_height="fill_parent">
+    <LinearLayout
+       android:orientation="horizontal"
+       android:id="@+id/camera_textureview"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent" />
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <View 
+            android:id="@+id/front_rcode" 
+            android:layout_marginLeft="8dp"
+            android:layout_width="20dp"
+            android:background="@drawable/circle2"
+            android:layout_height="20dp"/>
+        <View
+            android:id="@+id/post_rcode" 
+            android:layout_width="20dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/circle2"
+            android:layout_height="20dp"/>
+        
+    </LinearLayout>
+</FrameLayout>
+    

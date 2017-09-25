@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/playback_mode"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="0.1dp"
+        android:background="@color/white"/>
+    
+    <LinearLayout 
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+    
+    <LinearLayout 
+        android:id="@+id/file_mode"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <ImageView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/file_bg"/>
+       <TextView
+        android:textSize="20sp"
+        android:gravity="center" 
+       	android:layout_width="wrap_content"
+        android:text="@string/file_mode"
+        android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+     
+    <LinearLayout 
+        android:id="@+id/calendar_mode"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+       <ImageView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/caran_bg"/>
+       <TextView
+        android:textSize="20sp"
+        android:gravity="center" 
+        
+       	android:layout_width="wrap_content"
+        android:text="@string/calendar_mode"
+        android:layout_height="wrap_content"/>
+        
+    </LinearLayout>
+   </LinearLayout>
+   <!--  <View
+        android:layout_width="0.5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"/>
+    <TextView 
+        android:textSize="20sp"
+        android:gravity="center" 
+        android:id="@+id/calendar_mode"
+        android:text="@string/calendar_mode"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/> -->
+
+</LinearLayout>

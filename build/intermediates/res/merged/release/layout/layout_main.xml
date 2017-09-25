@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent">
+     <ImageView 
+        
+        android:id="@+id/front_rcode" 
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+     <LinearLayout 
+         android:background="@color/gray"
+         android:id="@+id/sd_layout"
+         android:layout_marginRight="100dp"
+         android:layout_alignParentRight="true"
+         android:layout_width="wrap_content"
+         android:orientation="horizontal"
+         android:gravity="center"
+         android:layout_height="40dp">
+         <ImageView 
+             android:id="@+id/sd_state"
+             android:layout_width="25dp"
+             android:layout_height="28dp"
+             android:background="@drawable/no_sd"/>
+         <ImageView 
+             android:id="@+id/recording_time"
+             android:layout_width="25dp"
+             android:layout_height="28dp"
+             android:background="@drawable/image0"/>
+         <ImageView 
+             android:id="@+id/usb_state"
+             android:layout_width="25dp"
+             android:layout_height="28dp"
+             android:background="@drawable/usb"/>
+         
+     </LinearLayout>
+     <ImageView 
+         android:visibility="gone"
+         android:id="@+id/video_locking"
+         android:layout_margin="30dp"
+         android:layout_alignParentRight="true"
+         android:src="@drawable/video_locking_bg"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+  <LinearLayout
+       	android:id="@+id/linear_botton"
+       	android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+   <LinearLayout
+     
+     android:baselineAligned="false"
+     android:id="@+id/videoBottom"
+     android:orientation="horizontal"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content">
+     <LinearLayout 
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:gravity="center|bottom"
+         android:layout_weight="1">
+          <!-- <Button
+           android:id="@+id/lock"
+           style="@style/style_setting_button"
+           android:layout_marginBottom="20dp"
+           android:background="@drawable/ic_lock_n" /> -->
+
+         <Button
+             android:id="@+id/setting"
+             style="@style/style_setting_button"
+             android:layout_marginBottom="12dp"
+             android:background="@drawable/d_uicommon_setting"/>
+
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:gravity="center|bottom"
+         android:layout_marginBottom="12dp"
+         android:layout_weight="1">
+          <Button
+           android:id="@+id/lock"
+           style="@style/style_setting_button"
+           android:background="@drawable/d_uicommon_lock"/>
+     </LinearLayout>  
+      
+     <LinearLayout 
+         android:layout_width="0dp"
+         android:layout_marginBottom="12dp"
+         android:layout_height="match_parent"
+         android:gravity="center"
+         android:layout_weight="1">
+          <Button
+            android:layout_gravity="bottom"
+            android:id="@+id/start"
+            style="@style/style_setting_button"
+            android:background="@drawable/d_uicommon_btncamcorder" />
+     </LinearLayout>  
+     
+   	<LinearLayout 
+     	android:layout_width="0dp"
+     	android:layout_marginBottom="12dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+         <Button
+         android:id="@+id/shutter"
+         android:layout_gravity="bottom"
+         style="@style/style_setting_button"
+         android:background="@drawable/d_uicommon_shutter"/>
+        <Button
+          android:visibility="gone"  
+          android:id="@+id/btnswitch"
+          android:layout_gravity="bottom"
+          style="@style/style_setting_button"
+          android:background="@drawable/d_uicommon_switch" />
+     </LinearLayout>      
+         
+     <LinearLayout 
+         android:visibility="gone"
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:gravity="center|bottom"
+         android:layout_weight="1">
+          <Button
+            android:id="@+id/full_screen"
+            style="@style/style_setting_button"
+            android:background="@drawable/brightness_btn" />
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:gravity="center"
+         android:layout_marginBottom="12dp"
+         android:layout_weight="1">
+          <Button
+            android:layout_gravity="bottom"
+            android:id="@+id/playblack"
+            style="@style/style_setting_button"
+            android:background="@drawable/d_uicommon_playback" />
+     </LinearLayout>  
+     <!-- <LinearLayout 
+         
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:gravity="center"
+         android:layout_weight="1">
+          <Button
+            android:id="@+id/tone_setting"
+            style="@style/style_setting_button"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/brightness_btn" />
+     </LinearLayout>       -->
+    </LinearLayout> 
+    </LinearLayout>
+
+  <TextView
+      android:visibility="gone"
+      android:textColor="@color/gray"
+      android:id="@+id/recording_tips"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@+id/front_rcode"
+      android:layout_marginBottom="14dp"
+      android:layout_toRightOf="@+id/front_rcode"
+      android:gravity="center"
+      android:textSize="20sp"
+      android:text="@string/recording_tips"/>
+  <TextView
+      android:background="@drawable/toast_bg" 
+      android:visibility="gone"
+      android:id="@+id/waning"
+      android:textSize="20sp"
+      android:textColor="@color/red"
+      android:layout_centerInParent="true"
+      android:layout_height="100dp"
+      android:layout_width="300dp"
+      android:gravity="center"/>
+
+</RelativeLayout>
+
+    

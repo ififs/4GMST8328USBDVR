@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_param_contrast_df.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_param_contrast_df.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_param_exposure_3.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_param_exposure_3.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_param_wb_cloudy.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_param_wb_cloudy.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_item_bg.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_item_bg.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_param_exposure_0.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_param_exposure_0.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_param_wb_incandescent.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_param_wb_incandescent.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_param_wb_auto.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_param_wb_auto.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/app_jyt.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/app_jyt.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_param_exposure_2.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_param_exposure_2.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_item_on_bg.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_item_on_bg.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_param_wb_fluorescent.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_param_wb_fluorescent.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_param_contrast_bs.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_param_contrast_bs.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_param_contrast_bw.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_param_contrast_bw.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_param_exposure_1.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_param_exposure_1.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_param_contrast_nt.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_param_contrast_nt.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_param_exposure_4.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_param_exposure_4.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_param_contrast_se.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_param_contrast_se.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-mdpi-v4/camera_param_wb_daylight.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-mdpi/camera_param_wb_daylight.png"
+    }
+]

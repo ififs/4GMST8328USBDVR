@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_set_imageview_layout_width">50.0dip</dimen>
+    <dimen name="item_set_imageview_layout_height">50.0dip</dimen>
+    <dimen name="list_set_imageview_layout_width">100.0dip</dimen>
+    <dimen name="list_set_imageview_layout_height">102.0dip</dimen>
+    
+    <dimen name="pic_in_pic_width">320px</dimen>
+    <dimen name="pic_in_pic_height">240px</dimen>
+</resources>

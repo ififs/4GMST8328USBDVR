@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/adapter/FolderAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/adapter/ListAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/adapter/SetAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/control/DeleteFileManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/control/DeleteVideo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/control/FileManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/control/SpecialCalendar.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/module/FileInfor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/module/MediaInfor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/module/PhotoInfor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/module/SettingInfor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/module/VideoInfo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/view/DiaLogView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/view/SettingView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/view/StorageSpaceView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/syu/dvr/view/WindowManageView.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

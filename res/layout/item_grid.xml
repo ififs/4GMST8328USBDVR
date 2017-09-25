@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+   <TextView
+      	android:layout_marginTop="15dp"
+       android:id="@+id/id_time"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+       android:text="9"
+       android:textColor="#078d10"
+       android:textSize="15sp" />
+
+     <View 
+         android:layout_width="match_parent"
+         android:background="@drawable/edit_dirive"
+         android:layout_height="7dip"/>
+    <com.syu.dvr.widget.MGridView 
+        android:verticalSpacing="15dip"
+        android:layout_marginTop="20dip"
+        android:id="@+id/layout_gridview"
+        android:horizontalSpacing="20dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_tittle"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/str_format_title"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@drawable/divide_view" />
+
+    <TextView
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbarFadeDuration="100"
+        android:scrollbars="vertical"
+        android:id="@+id/dialog_messege"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:text="@string/str_format_message_two"
+        android:textColor="@color/red"
+        android:textSize="20sp" />
+
+    <View
+     android:layout_margin="3dp"
+     android:layout_width="match_parent"
+     android:layout_height="0.5dp"
+     android:background="@drawable/divide_view" />
+	<LinearLayout 
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <TextView 
+        android:textSize="20sp"
+        android:id="@+id/dialog_cancle"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:text="@string/str_tip_cancle"
+        android:layout_height="49dp"/>
+   	
+    <View
+        android:layout_width="0.5dp"
+        android:layout_marginBottom="3dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/h_dirive" />
+    <TextView 
+        android:textSize="20sp"
+        android:id="@+id/dialog_sure"
+       	android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:text="@string/str_tip_sure"
+         android:layout_height="49dp"/>
+    
+    
+</LinearLayout>
+</LinearLayout>

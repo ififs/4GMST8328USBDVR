@@ -1,0 +1,326 @@
+[
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/btn_play.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/btn_play.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/icon_on.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/icon_on.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/pull_down.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/pull_down.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/def_image.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/def_image.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/bg_right_btn_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/bg_right_btn_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/shock_p_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/shock_p_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/voice_n_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/voice_n_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/no_sd.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/no_sd.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_playback_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_playback_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/black.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/black.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_setting_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_setting_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/bt_function.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/bt_function.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/shock_n_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/shock_n_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/icon_btn.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/icon_btn.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/fine_tune_left_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/fine_tune_left_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_shutter_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_shutter_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/voice_p_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/voice_p_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/bg_left_btn_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/bg_left_btn_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_btncamcorder_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_btncamcorder_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_lock_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_lock_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/big_lock.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/big_lock.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/black_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/black_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/time_sele_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/time_sele_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/divider_folder_list.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/divider_folder_list.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_sub_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_sub_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/bg_left_btn.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/bg_left_btn.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_setting_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_setting_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_full_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_full_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/voice_n_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/voice_n_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_stop_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_stop_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_add_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_add_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/mark_lock.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/mark_lock.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/voice_p_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/voice_p_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/icon_off.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/icon_off.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/bg_right_btn.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/bg_right_btn.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/image_edit_selet_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/image_edit_selet_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/d_uicommon_frame.9.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/d_uicommon_frame.9.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/icon_folder.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/icon_folder.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/bg_stretch.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/bg_stretch.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/bk2.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/bk2.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_check_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_check_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_switch_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_switch_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/induction_bg.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/induction_bg.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/black_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/black_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_lock_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_lock_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_btncamcorder_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_btncamcorder_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/brightness.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/brightness.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/background.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/background.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_sub_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_sub_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/big_cricl.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/big_cricl.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/fine_tune_right.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/fine_tune_right.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/right_img.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/right_img.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/image_edit_selet.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/image_edit_selet.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/bg_shrink.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/bg_shrink.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_playback_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_playback_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/bt_function_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/bt_function_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_full_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_full_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_shutter_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_shutter_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/image_video.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/image_video.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/view.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/view.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/image_f.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/image_f.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/exist_sd.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/exist_sd.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/fine_tune_right_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/fine_tune_right_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_add_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_add_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/shock_p_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/shock_p_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/icon_uicommont_btn_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/icon_uicommont_btn_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/shock_n_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/shock_n_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/image_r.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/image_r.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/brightness_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/brightness_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_switch_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_switch_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/icon_btn_p.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/icon_btn_p.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_text.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_text.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/induction_off.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/induction_off.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/bk_bottom.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/bk_bottom.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/middle.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/middle.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/icon_devicer.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/icon_devicer.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/min_cricl.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/min_cricl.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/fine_tune_left.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/fine_tune_left.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/icon_uicommont_btn_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/icon_uicommont_btn_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/ic_uicommon_stop_n.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/ic_uicommon_stop_n.png"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/drawable-nodpi-v4/induction_on.png",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/drawable-nodpi/induction_on.png"
+    }
+]

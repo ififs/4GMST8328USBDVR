@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/anim/bottom_out.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/anim/bottom_out.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/anim/bottom_in.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/anim/bottom_in.xml"
+    }
+]

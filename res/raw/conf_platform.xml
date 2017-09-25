@@ -1,0 +1,3 @@
+<project name="platform">
+	<property name="apkid" value="170000000_com.syu.dvr"/>
+</project>

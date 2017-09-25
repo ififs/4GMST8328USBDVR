@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="resolution_setting">
+        <item>"1080 P"</item>
+        <item>"720 P"</item>
+    </string-array>
+    
+    <string-array name="strobe_setting">
+        <item>"60HZ"</item>
+        <item>"50HZ"</item>
+    </string-array>
+    <string-array name="collision_setting">
+        <item>@string/str_collision_close</item>
+        <item>@string/str_collision_low</item>
+        <item>@string/str_collision_in</item>
+        <item>@string/str_collision_high</item>
+    </string-array>
+    <string-array name="recording_time">
+        <item>@string/one_minute</item>
+        <item>@string/three_minute</item>
+        <item>@string/five_minute</item>
+    </string-array>
+    <string-array name="fyt_sup_usb_dvr">
+        <item>FYT300</item>
+        <item>FYT301</item>
+        <item>FYT302</item>
+        <item>FYT303</item>
+    </string-array>
+   <string-array name="storage_size">
+       <item>100M</item>
+        <item>300M</item>
+        <item>500M</item>
+        <item>800M</item>
+   </string-array> 
+ 
+</resources>

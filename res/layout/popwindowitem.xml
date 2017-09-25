@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:id="@+id/show_time"
+    android:orientation="vertical">
+    
+	<LinearLayout 
+	    android:layout_margin="10dp"
+	    android:layout_marginBottom="10dp"
+	    android:layout_width="match_parent"
+	    android:gravity="center_horizontal"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               	android:text="1"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               	android:text="@string/str_text_year"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+             <TextView
+                android:id="@+id/tv_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               	android:text="1"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               	android:text="@string/str_text_month"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/tv_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+               android:layout_marginLeft="2dp"
+               android:text="2"
+               android:textColor="#000000"
+               android:textSize="20sp" />
+            <TextView
+               
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/str_text_data"
+                android:layout_marginLeft="2dp"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+            
+       </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/bk2"
+    android:layout_height="fill_parent">
+	<TextureView
+	   
+        android:id="@+id/camera_textureview4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <TextureView
+        android:id="@+id/camera_textureview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+     <TextureView
+        android:clickable="false"
+        android:id="@+id/camera_textureview2"
+        android:layout_width="300dp"
+        android:layout_height="225dp" />
+     <TextureView
+      	 android:clickable="false"
+        android:id="@+id/camera_textureview3"
+        android:layout_width="300dp"
+        android:layout_height="225dp" />
+    <LinearLayout
+        android:id="@+id/state_linearlayout"
+        android:baselineAligned="false"
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <ImageView 
+                android:background="@color/bg_g"
+                android:src="@drawable/image_video"
+                android:layout_width="35dp"
+                android:layout_height="28dp"/>
+            <TextView 
+                android:background="@color/bg_g"
+                android:gravity="center_vertical"
+                android:layout_width="45dp"
+                android:id="@+id/picture_size"
+                android:textColor="@color/white"
+                android:layout_height="28dp"/>
+        </LinearLayout>
+        <LinearLayout 
+             android:id="@+id/time_show"
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <ImageView 
+                android:background="@color/bg_g"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/circle"
+                android:layout_width="33dp"
+                android:layout_height="28dp"/>
+            <TextView 
+                android:id="@+id/recording_minute"
+                android:background="@color/bg_g"
+                android:gravity="center_vertical"
+                android:layout_width="20dp"
+                android:textColor="@color/white"
+                android:text="00:"
+                android:layout_height="28dp"/>
+            <TextView 
+                android:id="@+id/recording_second"
+                android:background="@color/bg_g"
+                android:gravity="center_vertical"
+                android:layout_width="20dp"
+                android:textColor="@color/white"
+                android:text="00"
+                android:layout_height="28dp"/>
+        </LinearLayout>
+        <LinearLayout 
+          	android:background="@color/bg_g"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <ImageView 
+                android:id="@+id/image_sd"
+               	android:layout_gravity="center"
+                android:layout_width="28dp"
+                android:layout_height="28dp"/>
+           
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp">
+        <View 
+            android:layout_marginTop="35dp"
+            android:id="@+id/front_rcode" 
+            android:layout_marginLeft="10dp"
+            android:layout_width="25dp"
+            android:background="@drawable/circle2"
+            android:layout_height="25dp"/>
+        <View
+            android:layout_marginTop="35dp"
+            android:id="@+id/post_rcode" 
+            android:layout_width="25dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/circle2"
+            android:layout_height="25dp"/>
+        
+    </LinearLayout>
+    
+  <LinearLayout
+      	android:visibility="gone"
+        android:id="@+id/linear_botton"
+        android:layout_gravity="bottom"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+      
+   <LinearLayout
+     android:layout_marginTop="20dp"
+     android:baselineAligned="false"
+     android:id="@+id/videoBottom"
+     android:orientation="horizontal"
+     android:layout_width="fill_parent"
+     android:layout_height="200dp">
+     <LinearLayout 
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:gravity="center"
+         android:layout_weight="1">
+          <Button
+           android:id="@+id/lock"
+           style="@style/style_setting_button"
+           android:layout_marginBottom="20dp"
+           android:background="@drawable/ic_lock_n" />
+
+         <Button
+             android:id="@+id/setting"
+             style="@style/style_setting_button"
+             android:layout_marginBottom="12dp"
+             android:background="@drawable/d_uicommon_setting"/>
+
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:gravity="center"
+         android:layout_marginBottom="12dp"
+         android:layout_weight="1">
+          <Button
+            android:layout_gravity="bottom"
+            android:id="@+id/playblack"
+            style="@style/style_setting_button"
+            android:background="@drawable/d_uicommon_playback" />
+     </LinearLayout>  
+     
+     <LinearLayout 
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:gravity="center"
+         android:layout_weight="1">
+          <Button
+            android:layout_gravity="bottom"
+            android:id="@+id/start"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/d_uicommon_btncamcorder" />
+     </LinearLayout>  
+     
+   	<LinearLayout 
+     	android:layout_width="0dp"
+     	android:layout_marginBottom="12dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+        <Button
+          android:id="@+id/btnswitch"
+          android:layout_gravity="bottom"
+          style="@style/style_setting_button"
+          android:background="@drawable/d_uicommon_switch" />
+     </LinearLayout>      
+         
+     <LinearLayout 
+         android:visibility="gone"
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:gravity="center|bottom"
+         android:layout_weight="1">
+          <Button
+            android:id="@+id/full_screen"
+            style="@style/style_setting_button"
+            android:background="@drawable/brightness_btn" />
+     </LinearLayout>
+     <LinearLayout 
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:gravity="center"
+         android:layout_weight="1">
+        <Button
+           android:id="@+id/shutter"
+           style="@style/style_setting_button"
+           android:layout_marginBottom="20dp"
+           android:background="@drawable/d_uicommon_shutter"/>
+          <Button
+            android:id="@+id/tone_setting"
+            style="@style/style_setting_button"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/brightness_btn" />
+     </LinearLayout>      
+    </LinearLayout> 
+    </LinearLayout>
+</FrameLayout>
+
+    

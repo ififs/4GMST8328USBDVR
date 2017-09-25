@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/list_photo_item.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/list_photo_item.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/layout_playback.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/layout_playback.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/populistview.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/populistview.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/layout_setting.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/layout_setting.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/layout_rdvrfragment.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/layout_rdvrfragment.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/layout_main3.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/layout_main3.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/layout_choose_file.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/layout_choose_file.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/calendar_item.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/calendar_item.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/text.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/text.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/fragment_activity.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/fragment_activity.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/layout_induction.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/layout_induction.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/item_image.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/item_image.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/item_textureview.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/item_textureview.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/pathsetting.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/pathsetting.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/layout_progress.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/layout_progress.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/layout_calendar.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/layout_calendar.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/text_layout.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/text_layout.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/layout_main2.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/layout_main2.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/item_set.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/item_set.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/layout_statusbar.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/layout_statusbar.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/item_grid.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/item_grid.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/layout_choose_item.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/layout_choose_item.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/storage_space_layout.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/storage_space_layout.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/fill_layout_activity.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/fill_layout_activity.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/layout_pip.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/layout_pip.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/layout_fdvrfragment.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/layout_fdvrfragment.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/layout_main.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/layout_main.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/popu_item_layout.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/popu_item_layout.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/hot_fragment.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/hot_fragment.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/show_stat.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/show_stat.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/layout_recodview.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/layout_recodview.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/delete_progress.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/delete_progress.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/popwindowitem.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/popwindowitem.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/notficationxml.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/notficationxml.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/item_pathsetting.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/item_pathsetting.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/SOIFA_DVR_5009/build/intermediates/res/merged/debug/layout/setting_view_layout.xml",
+        "source": "/home/mark/workspace/SOIFA_DVR_5009/res/layout/setting_view_layout.xml"
+    }
+]

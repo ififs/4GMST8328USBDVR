@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/raw/recording.wav",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/raw/recording.wav"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/raw/playbackmode.wav",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/raw/playbackmode.wav"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/raw/stoprecord.wav",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/raw/stoprecord.wav"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/raw/startrecord.wav",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/raw/startrecord.wav"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/raw/shutter.wav",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/raw/shutter.wav"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/raw/pleaserecording.wav",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/raw/pleaserecording.wav"
+    }
+]

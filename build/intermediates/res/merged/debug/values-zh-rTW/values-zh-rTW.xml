@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="duration_array">
+        <item>2分鐘</item>
+        <item>3分鐘</item>
+        <item>5分鐘</item>
+      <!--   <item >30分钟</item>
+        <item >60分钟</item> -->
+    </string-array>
+    <string-array name="mCollision_video">
+        <item>30秒</item>
+        <item>60秒</item>
+        <item>90秒</item>
+        <item>120秒</item>
+    </string-array>
+    <string-array name="mCollision_video_time">
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="mExercise_array">
+        <item>非常靈敏</item>
+        <item>靈敏</item>
+        <item>標準</item>
+        <item>不靈敏</item>
+        <item>非常不靈敏</item>
+    </string-array>
+    <string-array name="mExercise_number">
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="profile_array">
+        <item>1080P</item>
+        <item>720P</item>
+        <item>480P</item>
+       
+    </string-array>
+    <string-array name="recorder_frame_rate">
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="size_cvbs">
+    	<item>720X480</item>
+        <item>720X576</item>
+    </string-array>
+    <string-array name="size_usb_camera">
+        <item>320X240</item>
+        <item>352X288</item>
+        <item>640X480</item>
+        <item>1280X720</item>
+    </string-array>
+    <string name="Str_text_delete">刪除</string>
+    <string name="Str_text_edit">編輯</string>
+    <string name="Str_text_month">月</string>
+    <string name="app_name">行車記錄儀</string>
+    <string name="disk_eject">保存錄製文件的磁盤被移除</string>
+    <string name="friday">周五</string>
+    <string name="max_duration">單個文件時長</string>
+    <string name="monday">周一</string>
+    <string name="no_careme_rear">无后录摄像头</string>
+    <string name="pref_camera_colormode_entry_ancient">复古</string>
+    <string name="pref_camera_colormode_entry_black_white">黑白</string>
+    <string name="pref_camera_colormode_entry_default">默认</string>
+    <string name="pref_camera_colormode_entry_emBoss">浮雕</string>
+    <string name="pref_camera_colormode_entry_grass_green">草绿色</string>
+    <string name="pref_camera_colormode_entry_monocolor">纯色</string>
+    <string name="pref_camera_colormode_entry_negative">底片</string>
+    <string name="pref_camera_colormode_entry_reseda">浅绿色</string>
+    <string name="pref_camera_colormode_entry_sepia">深褐色</string>
+    <string name="pref_camera_colormode_entry_sketch">素描</string>
+    <string name="pref_camera_colormode_entry_sky_blue">天蓝色</string>
+    <string name="quit_Camcorder">退出应用</string>
+    <string name="recoder_profile">录制分辨率</string>
+    <string name="saturday">周六</string>
+    <string name="save_v_faile">保存錄制文件失敗，存儲設備或已移除</string>
+    <string name="start_record">錄製</string>
+    <string name="stop_record">停止</string>
+    <string name="storage_size">录制文件大小</string>
+    <string name="str_all_locked">所有保存的文件都被鎖定，不能刪除</string>
+    <string name="str_bg_record">DVR正在錄製</string>
+    <string name="str_btn_back">返回</string>
+    <string name="str_btn_set">文件保存路徑</string>
+    <string name="str_btn_sure">確認</string>
+    <string name="str_camera_exit">監視器已被移除</string>
+    <string name="str_camera_remove">沒有檢測到攝像頭或攝像頭被移除了</string>
+    <string name="str_chcek_add">正在檢測加載外部存儲設備……</string>
+    <string name="str_dialog_message">是否退出编辑</string>
+    <string name="str_dialog_title">""</string>
+    <string name="str_dvr_Bt_isuse">蓝牙使用状态禁止该操在</string>
+    <string name="str_dvr_handler">您操作过于频繁，请稍候再操作</string>
+    <string name="str_dvr_handler_video_play">视频播放中无法时进行录制，如需要录制请关闭视频播放</string>
+    <string name="str_dvr_isbackcar">倒车状态10秒内禁止该操在</string>
+    <string name="str_dvr_isinit">DVR正在初始化中，请稍候再试</string>
+    <string name="str_dvr_isinit_fill">数据正在初始化，请稍候再试，或者从主界面点击进行全屏模式</string>
+    <string name="str_dvr_isplayvideo">视频播放状态10秒内禁止该操在</string>
+    <string name="str_dvr_recoding_error">录制错误</string>
+    <string name="str_dvr_state_unable">請打開DVR開關</string>
+    <string name="str_dvr_video_play">视频播放时，DVR预览已经关闭</string>
+    <string name="str_dvr_video_stop_play">视频播播放结束，DVR恢复预览</string>
+    <string name="str_file_islock_dele">当前文件已经加锁，确定要删除？</string>
+    <string name="str_file_islock_video">碰撞录制文件已经加锁</string>
+    <string name="str_format_message">確定要格式化SD卡？</string>
+    <string name="str_format_message_two">此操作將刪除SD卡上的所有文件，是否繼續進行？</string>
+    <string name="str_format_title">格式化SD卡</string>
+    <string name="str_format_title_two">正在格式化SD卡</string>
+    <string name="str_frame_rate">每秒錄製幀數</string>
+    <string name="str_load_success">外部存儲設備加載完成</string>
+    <string name="str_no_devicer">沒有外部存儲設備</string>
+    <string name="str_no_photo">沒有照片</string>
+    <string name="str_not_inside_dvr">非內置DVR狀態，不進行錄製</string>
+    <string name="str_not_recorded">沒有錄製記錄</string>
+    <string name="str_not_start_failed">摄像头异常，录制失败</string>
+    <string name="str_not_supported">系统不支持该摄像头设备</string>
+    <string name="str_noti_content">正在錄製</string>
+    <string name="str_noti_title">行車記錄儀</string>
+    <string name="str_playback">錄製回放</string>
+    <string name="str_record_begin">錄製開啟</string>
+    <string name="str_set_save_path">設置文件保存路徑</string>
+    <string name="str_setting">設置</string>
+    <string name="str_start_recorder">開始錄製</string>
+    <string name="str_stop_recorder">停止錄製</string>
+    <string name="str_text_adbum">相冊</string>
+    <string name="str_text_camera_isuse">攝像頭正在使用</string>
+    <string name="str_text_collision">碰撞感應設置</string>
+    <string name="str_text_data">日</string>
+    <string name="str_text_delete_video">删除</string>
+    <string name="str_text_exit">请退出当前页面</string>
+    <string name="str_text_flameout">熄火行駛碰撞感應靈敏度</string>
+    <string name="str_text_flock">前录加锁视频数已达上限，请手动删除</string>
+    <string name="str_text_format_sdcard">格式化SD卡</string>
+    <string name="str_text_lock">加锁视频数已达上限，请手动删除</string>
+    <string name="str_text_nodata">此天没有数据</string>
+    <string name="str_text_photo">拍照完成</string>
+    <string name="str_text_photo_fail">拍照失敗</string>
+    <string name="str_text_playback">回放</string>
+    <string name="str_text_plug_key">插拔鑰匙30秒內是否啟動震動錄像</string>
+    <string name="str_text_point">點</string>
+    <string name="str_text_recording">錄製</string>
+    <string name="str_text_rlock">后录加锁视频数已达上限，请手动删除</string>
+    <string name="str_text_save_count">預設存儲空間</string>
+    <string name="str_text_setting">設      置</string>
+    <string name="str_text_shock_key">碰撞感應檢測開關</string>
+    <string name="str_text_shock_screen">熄火震動感應是否亮屏</string>
+    <string name="str_text_shock_time">熄火震動錄像時間 </string>
+    <string name="str_text_start_audo">音頻錄製</string>
+    <string name="str_text_start_from_boot">開機自動錄製</string>
+    <string name="str_text_travel">行駛碰撞感應靈敏度</string>
+    <string name="str_text_video">視頻</string>
+    <string name="str_text_year">年</string>
+    <string name="str_tip_be_preview">正在為您打開預覽</string>
+    <string name="str_tip_camera_open_failed">攝像頭打開失敗</string>
+    <string name="str_tip_cancle">取消</string>
+    <string name="str_tip_en_sdcard">請设置有效的存储路径</string>
+    <string name="str_tip_invalid_path">無效路徑</string>
+    <string name="str_tip_is_recording">正在錄製</string>
+    <string name="str_tip_no_Camcorder">沒有檢測到攝像頭</string>
+    <string name="str_tip_no_camera">無法連接到相機</string>
+    <string name="str_tip_no_recorder">未開始錄製，無法回放</string>
+    <string name="str_tip_no_sdcard">請出入存儲設卡</string>
+    <string name="str_tip_nogps">GPS定位不成功</string>
+    <string name="str_tip_not_enough_storage">存儲空間不足，請删除相关数据</string>
+    <string name="str_tip_playback">請先停止錄製再進行回放</string>
+    <string name="str_tip_query">確定要刪除這個文件嗎？</string>
+    <string name="str_tip_query_recording">你要刪除的是正在錄製的文件，確定要刪除嗎？</string>
+    <string name="str_tip_set_valid_path">請設置一個有效的路徑</string>
+    <string name="str_tip_sure">確定</string>
+    <string name="str_tip_title">提示</string>
+    <string name="str_tip_unable_do">正在錄製，不能進行此操作</string>
+    <string name="str_title_duration">錄製文件時長</string>
+    <string name="str_title_frame_rate">每秒錄製幀數</string>
+    <string name="str_title_size">分辨率</string>
+    <string name="str_title_storager">錄製文件大小</string>
+    <string name="sunday">周日</string>
+    <string name="thursday">周四</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="whitebalance_auto">自动</string>
+    <string name="whitebalance_cloudy_daylight">晴天多云</string>
+    <string name="whitebalance_daylight">晴天</string>
+    <string name="whitebalance_fluorescent">日光灯</string>
+    <string name="whitebalance_incandescent">钨丝灯</string>
+</resources>

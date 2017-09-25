@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/notficationxml.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/notficationxml.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/item_textureview.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/item_textureview.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/layout_setting.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/layout_setting.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/format_sd_bg_is_black_layout.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/format_sd_bg_is_black_layout.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/list_item.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/layout_choose_item.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/layout_choose_item.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/setting_view_layout.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/setting_view_layout.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/popwindowitem.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/popwindowitem.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/sele_filemanager.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/sele_filemanager.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/layout_playback.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/layout_playback.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/layout_pip.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/layout_pip.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/popu_item_layout.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/popu_item_layout.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/item_pathsetting.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/item_pathsetting.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/null_view.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/null_view.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/layout_progress.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/layout_progress.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/hot_fragment.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/hot_fragment.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/main.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/system_upgrade_layout.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/system_upgrade_layout.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/layout_induction.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/layout_induction.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/layout_calendar.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/layout_calendar.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/item_grid.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/item_grid.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/storage_space_layout.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/storage_space_layout.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/fill_layout_activity.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/fill_layout_activity.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/layout_main.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/layout_main.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/delete_progress.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/delete_progress.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/text_layout.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/text_layout.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/item_set.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/item_set.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/calendar_item.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/calendar_item.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/fragment_activity.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/fragment_activity.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/layout_setting2.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/layout_setting2.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/item_image.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/item_image.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/pathsetting.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/pathsetting.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/list_photo_item.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/list_photo_item.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/layout_choose_file.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/layout_choose_file.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/text.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/text.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/populistview.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/populistview.xml"
+    },
+    {
+        "merged": "/home/mark/workspace/MST8328USBDVR/build/intermediates/res/merged/release/layout/format_sd_layout.xml",
+        "source": "/home/mark/workspace/MST8328USBDVR/res/layout/format_sd_layout.xml"
+    }
+]

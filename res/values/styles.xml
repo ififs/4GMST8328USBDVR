@@ -1,0 +1,164 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+	<style name="FullscreenTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="style_setting_layout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">72dp</item>
+        
+    </style>
+    <style name="style_setting_button">
+        <item name="android:layout_width">68dip</item>
+        <item name="android:layout_height">68dip</item>
+    </style>
+    <style name="style_play_button" parent="@style/style_setting_button">
+        <item name="android:paddingBottom">40dip</item>
+    </style>
+     <style name="style_setting_record">
+        <item name="android:layout_width">112dp</item>
+        <item name="android:layout_height">112dp</item>
+        
+    </style>
+    
+    <style name="style_induction_button">
+        <item name="android:layout_width">57dp</item>
+        <item name="android:layout_height">50dp</item>
+        </style>
+        
+    <style name="style_induction_able">
+        <item name="android:layout_width">146dp</item>
+        <item name="android:layout_height">50dp</item>
+        </style>
+    <style name="style_induction_layout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:paddingRight">20px</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    
+    <style name="style_induction_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    
+    <style name="weekName">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="style_setting_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="style_setting_right">
+        <item name="android:layout_width">122dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="progress_dialog" parent="@android:style/Theme.Dialog">  
+        <item name="android:windowFrame">@null</item><!-- 边框 -->  
+        <item name="android:windowIsFloating">true</item><!-- 是否浮现在activity之上 -->  
+        <item name="android:windowIsTranslucent">false</item><!-- 半透明 -->  
+        <item name="android:windowNoTitle">true</item><!-- 无标题 -->  
+        <item name="android:windowBackground">@drawable/bg_text_on_recording</item><!-- 自己想要的背景 -->  
+        <item name="android:backgroundDimEnabled">false</item><!-- 模糊 -->  
+    </style>
+    <style name="usb_camera_no_find" parent="@android:style/Theme.Dialog">  
+        <item name="android:windowFrame">@null</item><!-- 边框 -->  
+        <item name="android:windowIsFloating">true</item><!-- 是否浮现在activity之上 -->  
+        <item name="android:windowIsTranslucent">false</item><!-- 半透明 -->  
+        <item name="android:windowNoTitle">true</item><!-- 无标题 -->  
+        <item name="android:windowBackground">@color/transparent</item><!-- 自己想要的背景 -->  
+        <item name="android:backgroundDimEnabled">false</item><!-- 模糊 -->  
+    </style>  
+     <style name="add_dialog" parent="@android:style/Theme.Dialog">  
+        <item name="android:windowFrame">@null</item><!-- 边框 -->  
+        <item name="android:windowIsFloating">true</item><!-- 是否浮现在activity之上 -->  
+        <item name="android:windowIsTranslucent">false</item><!-- 半透明 -->  
+        <item name="android:windowNoTitle">true</item><!-- 无标题 -->  
+        <item name="android:windowBackground">@drawable/setting_dialog_bg</item><!-- 自己想要的背景 -->  
+        <item name="android:backgroundDimEnabled">false</item><!-- 模糊 -->  
+    </style>  
+     <style name="add_dialog_bg_is_black" parent="@android:style/Theme.Dialog">  
+        <item name="android:windowFrame">@null</item><!-- 边框 -->  
+        <item name="android:windowIsFloating">true</item><!-- 是否浮现在activity之上 -->  
+        <item name="android:windowIsTranslucent">false</item><!-- 半透明 -->  
+        <item name="android:windowNoTitle">true</item><!-- 无标题 -->  
+        <item name="android:windowBackground">@drawable/toast_black_bg</item>自己想要的背景  
+        <item name="android:backgroundDimEnabled">false</item><!-- 模糊 -->  
+    </style>  
+    <style name="setting_dialog" parent="@android:style/Theme.Dialog">  
+        <item name="android:windowFrame">@null</item><!-- 边框 -->  
+        <item name="android:windowIsFloating">true</item><!-- 是否浮现在activity之上 -->  
+        <item name="android:windowIsTranslucent">false</item><!-- 半透明 -->  
+        <item name="android:windowNoTitle">true</item><!-- 无标题 -->  
+        <item name="android:windowBackground">@color/transparent</item><!-- 自己想要的背景 -->  
+        <item name="android:backgroundDimEnabled">false</item><!-- 模糊 -->  
+    </style>  
+    
+    
+    <style name="ActivityStart" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@drawable/bk2</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+     <style name="Theme.Android123" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/bg_activity</item>
+    </style>
+    
+     
+     <style name="ListViewSetItem">
+        <item name="android:background">@drawable/bg_text_on_recording</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+    </style>
+    
+     <style name="ListViewTitleText">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+      <style name="radiobutton">
+         <item name="android:textSize">20sp</item>
+         <item name="android:paddingLeft">60dp</item>
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:layout_marginTop">20dp</item>
+     </style>
+     <style name="set_text_style">
+         <item name="android:textSize">20sp</item>
+         <item name="android:paddingLeft">60dp</item>
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+     </style>
+   <style name="layout_style">
+        <item name="android:paddingTop">10dp</item>
+         <item name="android:paddingLeft">60dp</item>
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+     </style>   
+     <style name="settings_style">
+         <item name="android:paddingTop">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>   
+     <style name="divide_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style> 
+</resources>

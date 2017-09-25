@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <declare-styleable name="setting_attrs">
+        <attr name="text" format="string" />
+        <attr name="icon" format="integer" />
+        <attr name="isdirive" format="boolean"/>
+        <attr name="settingName" format="string"/>
+    </declare-styleable>
+
+</resources>

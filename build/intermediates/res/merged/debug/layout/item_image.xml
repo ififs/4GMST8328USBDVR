@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ImageView
+        	android:layout_gravity="center"
+            android:id="@+id/list_set_select_view"
+            android:layout_width="@dimen/list_set_imageview_layout_width"
+            android:layout_height="@dimen/list_set_imageview_layout_height"
+            android:background="@drawable/menu_selector"
+            android:scaleType="fitCenter" />
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   	xmlns:apps="http://schemas.android.com/apk/res/com.syu.dvr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/setting_bg"
+    android:scrollbars="none"
+    android:orientation="vertical" >
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" 
+         android:layout_gravity="center_horizontal"
+         android:orientation="vertical">
+		 <com.syu.dvr.widget.SettingLayout
+		 android:id="@+id/time_setting_layout"
+         apps:text="@string/time_setting"
+         apps:settingName="@array/recording_time"
+         style="@style/settings_style"/>
+		 <com.syu.dvr.widget.SettingLayout
+		 android:id="@+id/resolution_setting_layout"
+         apps:text="@string/preview_resolution_setting"
+         apps:settingName="@array/resolution_setting"
+         style="@style/settings_style"/>
+		 <com.syu.dvr.widget.SettingLayout
+		 android:id="@+id/collision_setting_layout"
+         apps:text="@string/str_text_collision"
+         apps:settingName="@array/collision_setting"
+         style="@style/settings_style"/>
+		 <com.syu.dvr.widget.SettingLayout
+		 android:id="@+id/strobe_setting_layout"    
+         apps:text="@string/strobe"
+         apps:settingName="@array/strobe_setting"
+         style="@style/settings_style"/>
+		 <com.syu.dvr.widget.SettingSwitch
+		 android:id="@+id/audo_setting_layout"     
+         apps:text="@string/str_text_start_audo"
+         style="@style/settings_style"/>
+		 <com.syu.dvr.widget.SettingSwitch
+		 android:id="@+id/hdr_setting_layout"
+         apps:text="HDR"
+         style="@style/settings_style"/>
+		 <com.syu.dvr.widget.SettingButton
+		 android:id="@+id/format_title_layout"    
+         apps:text="@string/str_format_title"
+         style="@style/settings_style"/>
+		 <com.syu.dvr.widget.SettingButton
+		 android:id="@+id/factory_setting_layout"     
+         apps:text="@string/str_text_factory_setting"
+         style="@style/settings_style"/>
+		 <com.syu.dvr.widget.SettingButton
+		 android:id="@+id/system_upgrade_layout"    
+         apps:text="@string/str_system_upgrade"
+         style="@style/settings_style"/>
+		 <com.syu.dvr.widget.SettingButton
+		 android:id="@+id/version_information_layout"     
+         apps:text="@string/str_version_information"
+         style="@style/settings_style"/>
+		 <com.syu.dvr.widget.SettingButton
+		 android:id="@+id/about_software_layout"    
+         apps:text="@string/about_software"
+         style="@style/settings_style"/>
+   </LinearLayout>
+ 
+</ScrollView>
+

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk2"
+    android:orientation="vertical" >
+      <LinearLayout
+         	 android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="72dp" >
+
+                <TextView
+                    android:layout_alignParentLeft="true"
+                    style="@style/style_setting_text"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/str_text_start_audo" />
+                <Button
+                    android:id="@+id/recoder_audo" 
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/icon_off"/>
+            </RelativeLayout>
+			<View 
+			    android:visibility="gone"
+			    android:layout_width="fill_parent"
+			    android:background="@drawable/view"
+			    android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:id="@+id/layoutStartFromBoot"
+                style="@style/style_setting_layout"
+                android:visibility="visible" >
+
+                <TextView
+                    android:layout_alignParentLeft="true"
+                    style="@style/style_setting_text"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/str_text_start_from_boot" />
+
+                <Button
+                    android:id="@+id/boot_recoder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_off"
+                    android:gravity="center_vertical" />
+
+            </RelativeLayout>
+			<View android:layout_width="fill_parent"
+			    
+			    android:background="@drawable/view"
+			    android:layout_height="wrap_content"/>
+            <RelativeLayout
+                
+                android:id="@+id/layout_set_path"
+                style="@style/style_setting_layout">
+
+                <TextView
+                    style="@style/style_setting_text"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/str_btn_set" />
+
+               <!--  <TextView
+                    android:id="@+id/text_set_path"
+                    style="@style/style_setting_right"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/white" /> -->
+                
+                <TextView
+           
+                    android:layout_centerInParent="true"
+                    android:id="@+id/set_path"
+                    style="@style/style_setting_right"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:singleLine="true"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/bg_function"
+                    android:layout_alignParentRight="true"/>
+                
+            </RelativeLayout>
+			<View 
+			    android:visibility="gone"
+			    android:layout_width="fill_parent"
+			    android:layout_marginTop="10dp"
+			    android:background="@drawable/view"
+			    android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:visibility="gone"
+                style="@style/style_setting_layout"
+                
+                android:layout_gravity="center_vertical" >
+
+                <TextView
+                    style="@style/style_setting_text"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/str_text_save_count" />
+                 
+                <TextView 
+                    android:id="@+id/text_set_pace"
+                   	style="@style/style_setting_right"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/bg_function"
+                    android:layout_alignParentRight="true"/>
+
+               <!--  <Button
+                    
+                    android:id="@+id/btn_count_add"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/d_uicommon_btnadd" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text_save_count"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_toLeftOf="@+id/btn_count_add"
+                    android:background="@drawable/ic_uicommon_text"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <Button
+                    
+                    android:id="@+id/btn_count_sub"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toLeftOf="@+id/text_save_count"
+                    android:background="@drawable/d_uicommon_btnsub" /> -->
+            </RelativeLayout>
+			<View 
+			    android:visibility="gone"
+			    android:layout_width="fill_parent"
+			   
+			    android:background="@drawable/view"
+			    android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:visibility="gone"
+                android:id="@+id/layout_profile"
+               style="@style/style_setting_layout"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    style="@style/style_setting_text"
+                    android:text="@string/recoder_profile" />
+
+                
+                <TextView 
+                    android:id="@+id/text_profile"
+                   	style="@style/style_setting_right"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/bg_function"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+			<View android:layout_width="fill_parent"
+			    
+			    android:background="@drawable/view"
+			    android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:id="@+id/layout_duration"
+                style="@style/style_setting_layout"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    style="@style/style_setting_text"
+                    android:text="@string/max_duration" />
+
+                
+                <TextView 
+                    android:id="@+id/text_duration"
+                   	style="@style/style_setting_right"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/bg_function"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+				<View android:layout_width="fill_parent"
+			    
+			    android:background="@drawable/view"
+			    android:layout_height="wrap_content"/>
+            <RelativeLayout
+                
+                style="@style/style_setting_layout">
+                <TextView
+                    style="@style/style_setting_text"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/str_text_format_sdcard" />
+                <Button
+                    android:layout_centerInParent="true"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/set_format_sdcard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_guide_button"/>
+            </RelativeLayout>
+			<View 
+			    android:visibility="gone"
+			    android:layout_width="fill_parent"
+			    android:layout_marginTop="10dp"
+			    android:background="@drawable/view"
+			    android:layout_height="wrap_content"/>
+            <RelativeLayout
+               android:visibility="gone"
+               android:layout_marginBottom="10dp"
+                style="@style/style_setting_layout">
+                <TextView
+                    style="@style/style_setting_text"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/str_text_collision" />
+                <Button
+                    android:layout_centerInParent="true"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/collision_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_guide_button"/>
+            </RelativeLayout>
+            <View android:layout_width="fill_parent"
+			    android:background="@drawable/view"
+			    android:layout_height="wrap_content"/>
+        </LinearLayout>
+</ScrollView>
+

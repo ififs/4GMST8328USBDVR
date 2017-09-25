@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="duration_array">
+        <item>2min</item>
+        <item>3min</item>
+        <item>5min</item>
+       <!--  <item >30min</item>
+        <item >60min</item> -->
+    </string-array>
+    <string-array name="entry_color_effect_label">
+        <item>@string/pref_camera_colormode_entry_default</item>
+        <item>@string/pref_camera_colormode_entry_black_white</item>
+        <item>@string/pref_camera_colormode_entry_sepia</item>
+        <item>@string/pref_camera_colormode_entry_negative</item>
+    </string-array>
+    <string-array name="mCollision_video">
+        <item>30s</item>
+        <item>60s</item>
+        <item>90s</item>
+        <item>120s</item>
+    </string-array>
+    <string-array name="mCollision_video_time">
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="mExercise_array">
+        <item>Very sensitive</item>
+        <item>Sensitive</item>
+        <item>standard</item>
+        <item>Insensitive</item>
+        <item>Very insensitive</item>
+    </string-array>
+    <string-array name="mExercise_number">
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="pref_camera_color_effect_entry" translatable="false">
+       <item>none</item>
+       <item>mono</item>
+       <item>sepia</item>
+       <item>negative</item>
+   </string-array>
+    <string-array name="pref_camera_exposure_entry" translatable="false">
+        <item>-2.0</item>
+        <item>-1.66</item>
+        <item>-1.33</item>
+        <item>-1.0</item>
+        <item>-0.66</item>
+        <item>-0.33</item>
+        <item>0.0</item>
+        <item>0.33</item>
+        <item>0.66</item>
+        <item>1.0</item>
+        <item>1.33</item>
+        <item>1.66</item>
+        <item>2.0</item>
+    </string-array>
+    <string-array name="pref_camera_photo_quality_entry" translatable="false">
+        <item>3264x2448</item>
+        <item>2592x1944</item>
+        <item>2048x1536</item>
+        <item>1600x1200</item>
+        <item>1024x768</item>
+    </string-array>
+    <string-array name="pref_camera_whitebalance_entry" translatable="false">
+        <item>auto</item>
+        <item>daylight</item>
+        <item>cloudy</item>
+        <item>Fluorescent</item>
+        <item>natural</item>
+        <item>Fluorescent  lamp</item>
+        <item>incandescent</item>
+    </string-array>
+    <string-array name="profile_array">
+        <item>1080P</item>
+        <item>720P</item>
+        <item>480P</item>
+       
+    </string-array>
+    <string-array name="recorder_frame_rate">
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="size_array">
+        <item>640X480</item>
+        <item>352X288</item>
+        <item>320X240</item>
+        <item>1280X720</item>
+    </string-array>
+    <string-array name="size_cvbs">
+    	<item>720X480</item>
+        <item>720X576</item>
+    </string-array>
+    <string-array name="size_usb_camera">
+        <item>320X240</item>
+        <item>352X288</item>
+        <item>640X480</item>
+        <item>1280X720</item>
+    </string-array>
+    <string-array name="space_array">
+        <item>20%</item>
+        <item>30%</item>
+        <item>50%</item>
+        <item>80%</item>
+       <!--  <item >60min</item> -->
+    </string-array>
+    <string-array name="storage_array">
+        <item>100M</item>
+        <item>300M</item>
+        <item>500M</item>
+        <item>800M</item>
+    </string-array>
+    <string-array name="storage_size">
+       <item>100M</item>
+        <item>300M</item>
+        <item>500M</item>
+        <item>800M</item>
+   </string-array>
+    <color name="aliceblue">#F0F8FF</color>
+    <color name="antiquewhite">#FAEBD7</color>
+    <color name="app_background">#ECEDF1</color>
+    <color name="app_color">@color/gray</color>
+    <color name="app_title_text_color">@color/white</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="aquamarine">#7FFFD4</color>
+    <color name="azure">#F0FFFF</color>
+    <color name="base_black_gray">#636363</color>
+    <color name="base_gray">#363636</color>
+    <color name="base_gray_green">#56d292</color>
+    <color name="beige">#F5F5DC</color>
+    <color name="bg_g">#60000000</color>
+    <color name="bisque">#FFE4C4</color>
+    <color name="black">#000000</color>
+    <color name="blanchedalmond">#FFEBCD</color>
+    <color name="blue">#0000FF</color>
+    <color name="blueviolet">#8A2BE2</color>
+    <color name="brown">#A52A2A</color>
+    <color name="burlywood">#DEB887</color>
+    <color name="cadetblue">#5F9EA0</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="chb_text_color">#ff909090</color>
+    <color name="chocolate">#D2691E</color>
+    <color name="coral">#FF7F50</color>
+    <color name="cornflowerblue">#6495ED</color>
+    <color name="cornsilk">#FFF8DC</color>
+    <color name="crimson">#DC143C</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="dark_blue">#25865E</color>
+    <color name="darkblue">#00008B</color>
+    <color name="darkcyan">#008B8B</color>
+    <color name="darker_gray">#aaa</color>
+    <color name="darkgoldenrod">#B8860B</color>
+    <color name="darkgray">#A9A9A9</color>
+    <color name="darkgreen">#006400</color>
+    <color name="darkgrey">#A9A9A9</color>
+    <color name="darkkhaki">#BDB76B</color>
+    <color name="darkmagenta">#8B008B</color>
+    <color name="darkolivegreen">#556B2F</color>
+    <color name="darkorange">#FF8C00</color>
+    <color name="darkorchid">#9932CC</color>
+    <color name="darkred">#8B0000</color>
+    <color name="darksalmon">#E9967A</color>
+    <color name="darkseagreen">#8FBC8F</color>
+    <color name="darkslateblue">#483D8B</color>
+    <color name="darkslategray">#2F4F4F</color>
+    <color name="darkslategrey">#2F4F4F</color>
+    <color name="darkturquoise">#00CED1</color>
+    <color name="darkviolet">#9400D3</color>
+    <color name="deeppink">#FF1493</color>
+    <color name="deepskyblue">#00BFFF</color>
+    <color name="dimgray">#696969</color>
+    <color name="dimgrey">#696969</color>
+    <color name="dodgerblue">#1E90FF</color>
+    <color name="drawer_bg">#ff9661ba</color>
+    <color name="firebrick">#B22222</color>
+    <color name="floralwhite">#FFFAF0</color>
+    <color name="forestgreen">#228B22</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="ghostwhite">#F8F8FF</color>
+    <color name="gold">#FFD700</color>
+    <color name="goldenrod">#DAA520</color>
+    <color name="gray">#808080</color>
+    <color name="green">#008000</color>
+    <color name="greenyellow">#ADFF2F</color>
+    <color name="grey">#408080</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="honeydew">#F0FFF0</color>
+    <color name="hotpink">#FF69B4</color>
+    <color name="hutaoli_app_background">#efefef</color>
+    <color name="indianred">#CD5C5C</color>
+    <color name="indigo">#4B0082</color>
+    <color name="ivory">#FFFFF0</color>
+    <color name="khaki">#F0E68C</color>
+    <color name="lavender">#E6E6FA</color>
+    <color name="lavenderblush">#FFF0F5</color>
+    <color name="lawngreen">#7CFC00</color>
+    <color name="lemonchiffon">#FFFACD</color>
+    <color name="light_blue">#7FC5B0</color>
+    <color name="light_yellow">#FFF6F7</color>
+    <color name="lightblue">#ADD8E6</color>
+    <color name="lightcoral">#F08080</color>
+    <color name="lightcyan">#E0FFFF</color>
+    <color name="lightgoldenrodyellow">#FAFAD2</color>
+    <color name="lightgray">#D3D3D3</color>
+    <color name="lightgreen">#90EE90</color>
+    <color name="lightgrey">#D3D3D3</color>
+    <color name="lightpink">#FFB6C1</color>
+    <color name="lightransparent">#a0000000</color>
+    <color name="lightsalmon">#FFA07A</color>
+    <color name="lightseagreen">#20B2AA</color>
+    <color name="lightskyblue">#87CEFA</color>
+    <color name="lightslategray">#778899</color>
+    <color name="lightslategrey">#778899</color>
+    <color name="lightsteelblue">#B0C4DE</color>
+    <color name="lightyellow">#FFFFE0</color>
+    <color name="lime">#00FF00</color>
+    <color name="limegreen">#32CD32</color>
+    <color name="linen">#FAF0E6</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="main_bg">#14439C</color>
+    <color name="maroon">#800000</color>
+    <color name="material_500">#9c27b0</color>
+    <color name="material_700">#7b1fa2</color>
+    <color name="material_a200">#ce93d8</color>
+    <color name="mediumaquamarine">#66CDAA</color>
+    <color name="mediumblue">#0000CD</color>
+    <color name="mediumorchid">#BA55D3</color>
+    <color name="mediumpurple">#9370DB</color>
+    <color name="mediumseagreen">#3CB371</color>
+    <color name="mediumslateblue">#7B68EE</color>
+    <color name="mediumspringgreen">#00FA9A</color>
+    <color name="mediumturquoise">#48D1CC</color>
+    <color name="mediumvioletred">#C71585</color>
+    <color name="midnightblue">#191970</color>
+    <color name="mintcream">#F5FFFA</color>
+    <color name="mistyrose">#FFE4E1</color>
+    <color name="moccasin">#FFE4B5</color>
+    <color name="navajowhite">#FFDEAD</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="navy">#000080</color>
+    <color name="oldlace">#FF3030</color>
+    <color name="olive">#808000</color>
+    <color name="olivedrab">#6B8E23</color>
+    <color name="orange">#FFA500</color>
+    <color name="orangered">#FF4500</color>
+    <color name="orchid">#DA70D6</color>
+    <color name="palegoldenrod">#EEE8AA</color>
+    <color name="palegreen">#98FB98</color>
+    <color name="paleturquoise">#AFEEEE</color>
+    <color name="palevioletred">#DB7093</color>
+    <color name="papayawhip">#FFEFD5</color>
+    <color name="peachpuff">#FFDAB9</color>
+    <color name="peru">#CD853F</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="plum">#DDA0DD</color>
+    <color name="powderblue">#B0E0E6</color>
+    <color name="purple">#800080</color>
+    <color name="recording_label_background_color">#77333333</color>
+    <color name="red">#FF0000</color>
+    <color name="rosybrown">#BC8F8F</color>
+    <color name="royalblue">#4169E1</color>
+    <color name="saddlebrown">#8B4513</color>
+    <color name="salmon">#FA8072</color>
+    <color name="sandybrown">#F4A460</color>
+    <color name="seagreen">#2E8B57</color>
+    <color name="seashell">#FFF5EE</color>
+    <color name="semitransparent">#80000000</color>
+    <color name="sienna">#A0522D</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="skyblue">#87CEEB</color>
+    <color name="slateblue">#6A5ACD</color>
+    <color name="slategray">#708090</color>
+    <color name="slategrey">#708090</color>
+    <color name="snow">#FFFAFA</color>
+    <color name="springgreen">#00FF7F</color>
+    <color name="steelblue">#4682B4</color>
+    <color name="tab_message">#67da9f</color>
+    <color name="tan">#D2B48C</color>
+    <color name="teal">#008080</color>
+    <color name="thistle">#D8BFD8</color>
+    <color name="tishi">#fffefff9</color>
+    <color name="tishi_back">#c62a2b2a</color>
+    <color name="tomato">#FF6347</color>
+    <color name="transparent">#00000000</color>
+    <color name="turquoise">#40E0D0</color>
+    <color name="violet">#EE82EE</color>
+    <color name="wheat">#F5DEB3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whitesmoke">#F5F5F5</color>
+    <color name="yellow">#FFFF00</color>
+    <dimen name="item_set_imageview_layout_height">50.0dip</dimen>
+    <dimen name="item_set_imageview_layout_width">50.0dip</dimen>
+    <dimen name="list_set_imageview_layout_height">102.0dip</dimen>
+    <dimen name="list_set_imageview_layout_width">100.0dip</dimen>
+    <dimen name="pic_in_pic_height">240px</dimen>
+    <dimen name="pic_in_pic_width">320px</dimen>
+    <integer name="first_cutdown_previewfps_percent">50</integer>
+    <integer name="first_cutdown_previewfps_temp">110000</integer>
+    <integer name="max_video_recording_length">0</integer>
+    <integer name="restore_previewfps_temp">90000</integer>
+    <integer name="second_cutdown_previewfps_percent">20</integer>
+    <integer name="second_cutdown_previewfps_temp">117000</integer>
+    <string name="Str_text_allsele">Select</string>
+    <string name="Str_text_delete">Delete</string>
+    <string name="Str_text_edit">Editing</string>
+    <string name="Str_text_month">Month</string>
+    <string name="adaptive_screen">Adaptive Screen</string>
+    <string name="app_name">DVR</string>
+    <string name="calendar_mode">Calendar mode</string>
+    <string name="check_failure">Encryption check failure</string>
+    <string name="data_add">Loading……</string>
+    <string name="disk_eject">The storage for recording files was removed</string>
+    <string name="exposure_0">-2.0</string>
+    <string name="exposure_1">-1.66</string>
+    <string name="exposure_10">+1.33</string>
+    <string name="exposure_11">+1.66</string>
+    <string name="exposure_12">+2.0</string>
+    <string name="exposure_2">-1.33</string>
+    <string name="exposure_3">-1.0</string>
+    <string name="exposure_4">-0.66</string>
+    <string name="exposure_5">-0.33</string>
+    <string name="exposure_6">+0.0</string>
+    <string name="exposure_7">+0.33</string>
+    <string name="exposure_8">+0.66</string>
+    <string name="exposure_9">+1.0</string>
+    <string name="factory_settings">Restoring factory settings，please wait a moment</string>
+    <string name="factory_settings_fish">Restoring factory settings complete</string>
+    <string name="file_mode">File mode</string>
+    <string name="flicker_frequency">Flicker frequency：</string>
+    <string name="flip">Flip</string>
+    <string name="friday">Friday</string>
+    <string name="fromat_sd_card">Fromat sd card</string>
+    <string name="fromat_sd_finish">Fromat sd card complete</string>
+    <string name="high_definition">FULL HD（1080P）</string>
+    <string name="i2c_error">I2C ERROR!</string>
+    <string name="loading_fail">File loading failed，Please check the SD card</string>
+    <string name="max_duration">File duration</string>
+    <string name="mirroring">mirroring</string>
+    <string name="monday">Monday</string>
+    <string name="no_camera">No traffic recorder was detected</string>
+    <string name="no_careme_rear">After recording no camera</string>
+    <string name="no_supplier">The current vehicle recorder and car do not match can not be used, please contact the relevant car supplier</string>
+    <string name="one_minute">One Minute</string>
+    <string name="photo_resolution">Photo resolution:</string>
+    <string name="playback_mode">Please select playback mode</string>
+    <string name="pref_camera_color_effect_default">none</string>
+    <string name="pref_camera_colormode_entry_ancient">Ancient</string>
+    <string name="pref_camera_colormode_entry_black_white">Black and White</string>
+    <string name="pref_camera_colormode_entry_default">Default</string>
+    <string name="pref_camera_colormode_entry_emBoss">Embossed</string>
+    <string name="pref_camera_colormode_entry_grass_green">Grass Green</string>
+    <string name="pref_camera_colormode_entry_monocolor">Pure Color</string>
+    <string name="pref_camera_colormode_entry_negative">Negative</string>
+    <string name="pref_camera_colormode_entry_reseda">Reseda</string>
+    <string name="pref_camera_colormode_entry_sepia">Sepia</string>
+    <string name="pref_camera_colormode_entry_sketch">Sketch</string>
+    <string name="pref_camera_colormode_entry_sky_blue">Sky Blue</string>
+    <string name="pref_camera_whitebalance_default">auto</string>
+    <string name="pref_exposure_default">0</string>
+    <string name="preview_resolution_setting">Video recording resolution：</string>
+    <string name="purchasea_dvice">No traveling data recorder equipment was detected, please confirm whether the connection is good and correct.
+If you need to buy please contact the dealer or contact 　@#　 for advice</string>
+    <string name="quit_Camcorder">Quit</string>
+    <string name="recoder_profile">Recording Resolution</string>
+    <string name="recoder_size">Resolution</string>
+    <string name="recording_tips">Recording medium</string>
+    <string name="remote_operation">For remote operation, please close the interface for thirty seconds.</string>
+    <string name="saturday">Saturday</string>
+    <string name="save_v_faile">Save file failed,</string>
+    <string name="screen_protection">Screen protection</string>
+    <string name="setting_camera">Set operation,please wait a moment</string>
+    <string name="standard_definition">HD（720P）</string>
+    <string name="start_record">Recording</string>
+    <string name="stop_record">Stop</string>
+    <string name="storage_size">Recording Size</string>
+    <string name="str__card_error">Tachograph　SD card error</string>
+    <string name="str_add_file">Loading, please wait ......</string>
+    <string name="str_all_locked">Delete file failed, All Files are Locked</string>
+    <string name="str_bg_record">DVR is Recording</string>
+    <string name="str_btn_back">Back</string>
+    <string name="str_btn_set">File Path</string>
+    <string name="str_btn_sure">Sure</string>
+    <string name="str_camera_exit">The camera has been removed</string>
+    <string name="str_camera_remove">No Camera Or Camera was removed</string>
+    <string name="str_chcek_add">Loading storage device……</string>
+    <string name="str_clear_all_setting">Sure to clear all setting？</string>
+    <string name="str_collision_close">Close</string>
+    <string name="str_collision_high">High</string>
+    <string name="str_collision_in">In</string>
+    <string name="str_collision_low">Low</string>
+    <string name="str_delete_all_file">Sure you want to delete all data?</string>
+    <string name="str_delete_file">Deleting, please wait ......</string>
+    <string name="str_dialog_message">Is editing,determine the exit edit?</string>
+    <string name="str_dialog_title">""</string>
+    <string name="str_dvr_Bt_isuse">Bluetooth uses state prohibits the operation in</string>
+    <string name="str_dvr_handler">Your operation is too frequent, Data is being processed</string>
+    <string name="str_dvr_handler_video_play">Video playback can not be performed when recording, such as the need to record close the video player</string>
+    <string name="str_dvr_isbackcar">Reversing the state within 10 seconds the operation is prohibited in</string>
+    <string name="str_dvr_isinit">DVR is initializing, please wait and try again</string>
+    <string name="str_dvr_isinit_fill">Data is initializing, please try again later, or from the main screen, click the full-screen mode</string>
+    <string name="str_dvr_isplayvideo">Video playback state prohibited the operation within 10 seconds in</string>
+    <string name="str_dvr_lock">Please make a video recording</string>
+    <string name="str_dvr_recoding_error">Recording errors</string>
+    <string name="str_dvr_state_unable">Please turn on DVR switch</string>
+    <string name="str_dvr_video_play">Video playback, DVR Preview has been closed</string>
+    <string name="str_dvr_video_stop_play">Video broadcast playback end, DVR recovery preview</string>
+    <string name="str_file_islock_dele">The current file has been locked, you sure you want to delete?</string>
+    <string name="str_file_islock_video">Recording has been locked </string>
+    <string name="str_format_message">Sure you want to format the SD card ？</string>
+    <string name="str_format_message_two">This operation will delete all data on the SD card,whether to continue？</string>
+    <string name="str_format_title">Format the SD card</string>
+    <string name="str_format_title_two">Is the SD card format</string>
+    <string name="str_frame_rate">Record frames</string>
+    <string name="str_load_success">Tachograph SD card loading completed</string>
+    <string name="str_low_speed_card">Tachograph　SD card for low card,please use class10 high speed card</string>
+    <string name="str_needs_stop_record">Execution of the instruction required to stop video recording</string>
+    <string name="str_no_devicer">no External Storage</string>
+    <string name="str_no_photo">no photos</string>
+    <string name="str_not_inside_dvr">No built-in DVR. Not recording</string>
+    <string name="str_not_recorded">no record</string>
+    <string name="str_not_start_failed">Abnormal camera, recording failed</string>
+    <string name="str_not_supported">The camera system is not supported</string>
+    <string name="str_noti_content">Recording..</string>
+    <string name="str_noti_title">DVR</string>
+    <string name="str_playback">Playback</string>
+    <string name="str_please_seletime">Please select a date</string>
+    <string name="str_pthoto_1_2m">1.2 M</string>
+    <string name="str_pthoto_2m">2 M</string>
+    <string name="str_pthoto_3m">3 M</string>
+    <string name="str_pthoto_vag">VGA</string>
+    <string name="str_record_begin">Recording</string>
+    <string name="str_set_save_path">Set File Path</string>
+    <string name="str_setting">Settings</string>
+    <string name="str_start_recorder">Start Recording</string>
+    <string name="str_stop_recorder">Stop Recording</string>
+    <string name="str_system_upgrade">System upgrade</string>
+    <string name="str_text_adbum">Album</string>
+    <string name="str_text_camera_isuse">Cameras are uesed</string>
+    <string name="str_text_collision">Emergency video lock sensitivity:</string>
+    <string name="str_text_data">Day</string>
+    <string name="str_text_delete_video">delete</string>
+    <string name="str_text_exit">Please exit the current page</string>
+    <string name="str_text_factory_setting">Factory setting</string>
+    <string name="str_text_flameout">Collision induced sensitivity</string>
+    <string name="str_text_flock">Locked file is full, please manually delete</string>
+    <string name="str_text_format_sdcard">Format SD card</string>
+    <string name="str_text_lock">Photo storage space is full</string>
+    <string name="str_text_no_G_SENSOR">No impact sensor</string>
+    <string name="str_text_nodata">No data is this day</string>
+    <string name="str_text_open_shock_key">Please open the collision detection sensor switch</string>
+    <string name="str_text_photo">Photo finish</string>
+    <string name="str_text_photo_fail">Photo failed</string>
+    <string name="str_text_playback">Play back</string>
+    <string name="str_text_plug_key">Plug the key 30 seconds whether to start shaking video</string>
+    <string name="str_text_point">point</string>
+    <string name="str_text_recording">Recording</string>
+    <string name="str_text_rlock">After locking the video recorder has reached the maximum number, please manually delete</string>
+    <string name="str_text_save_count">preset storage space</string>
+    <string name="str_text_setting">Settings</string>
+    <string name="str_text_shock_key">Collision detection switch</string>
+    <string name="str_text_shock_screen">Flame vibration sensing is a red or no bright screen</string>
+    <string name="str_text_shock_time">Video recording time</string>
+    <string name="str_text_start_audo">audio recording</string>
+    <string name="str_text_start_from_boot">Record automatically on start</string>
+    <string name="str_text_travel">Travel impact sensitivity</string>
+    <string name="str_text_video">Video</string>
+    <string name="str_text_year">Year</string>
+    <string name="str_tip_be_preview">Preview is available</string>
+    <string name="str_tip_camera_error">Camera error，ERROR=</string>
+    <string name="str_tip_camera_open_failed">Open Camera failure</string>
+    <string name="str_tip_cancle">Cancle</string>
+    <string name="str_tip_en_sdcard">Please set an effective storage path</string>
+    <string name="str_tip_invalid_path">Invalid path</string>
+    <string name="str_tip_is_recording">Recording..</string>
+    <string name="str_tip_no_Camcorder">No Camera</string>
+    <string name="str_tip_no_camera">Unable to connect to the camera</string>
+    <string name="str_tip_no_recorder">Recording was not started, playback not possible.</string>
+    <string name="str_tip_no_sdcard">Please insert storage devices</string>
+    <string name="str_tip_nogps">GPS positioning unsuccessful</string>
+    <string name="str_tip_not_enough_storage">Insufficient storage space</string>
+    <string name="str_tip_playback">Please stop recording before playback</string>
+    <string name="str_tip_query">Sure to delete this file?</string>
+    <string name="str_tip_query_recording">The file you want to delete is currently in use, do you want to delete it anyway?</string>
+    <string name="str_tip_set_valid_path">Please set a valid path</string>
+    <string name="str_tip_sure">Sure</string>
+    <string name="str_tip_title">Tips</string>
+    <string name="str_tip_unable_do">Recording is running, action not possible</string>
+    <string name="str_title_duration">Recording file duration</string>
+    <string name="str_title_frame_rate">Frame rate</string>
+    <string name="str_title_size">Resolution</string>
+    <string name="str_title_storager">Recording file size</string>
+    <string name="str_version_information">Version information</string>
+    <string name="sunday">Sunday</string>
+    <string name="switch_usb">The current USB protocol is 1.1, the protocol does not support the traffic recorder, please switch to the USB protocol to 2 </string>
+    <string name="system_upgrade">Please copy the upgrade file package to the drive recorder 
+        SD kagan directory,the upgrdae process do not power</string>
+    <string name="three_minute">Three Minute</string>
+    <string name="thursday">Thursday</string>
+    <string name="time_setting">Cycle Time：</string>
+    <string name="time_size">Time size</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="tv_standard">TV standard</string>
+    <string name="two_minute">Five Minute</string>
+    <string name="usb_low">USB protocol does not support</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="whitebalance_auto">auto</string>
+    <string name="whitebalance_cloudy_daylight">Cloudy</string>
+    <string name="whitebalance_daylight">daylight</string>
+    <string name="whitebalance_fluorescent">fluorescent (Sunlight)</string>
+    <string name="whitebalance_fluoresecent_lamp">Fluorrescent （Bright white）</string>
+    <string name="whitebalance_fluoresecent_natural">Fluorrescent （natural）</string>
+    <string name="whitebalance_incandescent">incandescent</string>
+    <string name="wide_dynamic">HDR</string>
+    <string name="wide_dynamic_range">Wide dynamic range</string>
+    <style name="ActivityStart" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@drawable/bk2</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+    <style name="FullscreenTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="ListViewSetItem">
+        <item name="android:background">@drawable/bg_text_on_recording</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+    </style>
+    <style name="ListViewTitleText">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="Theme.Android123" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/bg_activity</item>
+    </style>
+    <style name="add_dialog" parent="@android:style/Theme.Dialog">  
+        <item name="android:windowFrame">@null</item><!-- 边框 -->  
+        <item name="android:windowIsFloating">true</item><!-- 是否浮现在activity之上 -->  
+        <item name="android:windowIsTranslucent">false</item><!-- 半透明 -->  
+        <item name="android:windowNoTitle">true</item><!-- 无标题 -->  
+        <item name="android:windowBackground">@drawable/toast_bg</item><!-- 自己想要的背景 -->  
+        <item name="android:backgroundDimEnabled">false</item><!-- 模糊 -->  
+    </style>
+    <style name="add_dialog_bg_is_black" parent="@android:style/Theme.Dialog">  
+        <item name="android:windowFrame">@null</item><!-- 边框 -->  
+        <item name="android:windowIsFloating">true</item><!-- 是否浮现在activity之上 -->  
+        <item name="android:windowIsTranslucent">false</item><!-- 半透明 -->  
+        <item name="android:windowNoTitle">true</item><!-- 无标题 -->  
+        <item name="android:windowBackground">@drawable/toast_black_bg</item>自己想要的背景  
+        <item name="android:backgroundDimEnabled">false</item><!-- 模糊 -->  
+    </style>
+    <style name="layout_style">
+        
+         <item name="android:paddingLeft">60dp</item>
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+     </style>
+    <style name="radiobutton">
+         <item name="android:textSize">20sp</item>
+         <item name="android:paddingLeft">60dp</item>
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:layout_marginTop">20dp</item>
+     </style>
+    <style name="set_text_style">
+         <item name="android:textSize">20sp</item>
+         <item name="android:paddingLeft">60dp</item>
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+     </style>
+    <style name="setting_dialog" parent="@android:style/Theme.Dialog">  
+        <item name="android:windowFrame">@null</item><!-- 边框 -->  
+        <item name="android:windowIsFloating">true</item><!-- 是否浮现在activity之上 -->  
+        <item name="android:windowIsTranslucent">false</item><!-- 半透明 -->  
+        <item name="android:windowNoTitle">true</item><!-- 无标题 -->  
+        <item name="android:windowBackground">@drawable/dialog_bg</item><!-- 自己想要的背景 -->  
+        <item name="android:backgroundDimEnabled">false</item><!-- 模糊 -->  
+    </style>
+    <style name="style_induction_able">
+        <item name="android:layout_width">146dp</item>
+        <item name="android:layout_height">50dp</item>
+        </style>
+    <style name="style_induction_button">
+        <item name="android:layout_width">57dp</item>
+        <item name="android:layout_height">50dp</item>
+        </style>
+    <style name="style_induction_layout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:paddingRight">20px</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="style_induction_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="style_setting_button">
+        <item name="android:layout_width">86dp</item>
+        <item name="android:layout_height">86dp</item>
+        
+    </style>
+    <style name="style_setting_layout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">72dp</item>
+        
+    </style>
+    <style name="style_setting_right">
+        <item name="android:layout_width">122dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="style_setting_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="weekName">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

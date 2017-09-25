@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/com/syu/dvr/TheApp.java=UTF-8
+encoding//src/com/syu/dvr/adapter/CalendarAdapter.java=UTF-8
+encoding//src/com/syu/dvr/control/CameraManager.java=UTF-8
+encoding//src/com/syu/dvr/control/SpecialCalendar.java=UTF-8
+encoding//src/com/syu/dvr/imageloader/VideoImageLoader.java=UTF-8
+encoding//src/com/syu/dvr/module/MediaInfor.java=UTF-8
+encoding//src/com/syu/dvr/server/CollisionVideoService.java=UTF-8
+encoding//src/com/syu/dvr/upgrade/OkhttpDownLoadManage.java=UTF-8
+encoding//src/com/syu/dvr/utils/Config.java=UTF-8
+encoding//src/com/syu/dvr/utils/ImageLoader.java=UTF-8

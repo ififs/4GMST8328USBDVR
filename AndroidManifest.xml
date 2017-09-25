@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="1709231139" android:versionName="1.0.1" package="com.syu.dvr">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="19"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE">
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION">
+    </uses-permission>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO">
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECORD_VIDEO">
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET">
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE">
+    </uses-permission>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"/>
+    <uses-permission android:name="android.Manifest.permission.MOUNT_FORMAT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <!-- 悬浮窗口权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <!-- 关闭应用程序的权限 -->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <application android:allowBackup="true" android:hardwareAccelerated="true" android:icon="@drawable/dvr_sha_2" android:label="@string/app_name" android:largeHeap="true" android:name="com.syu.dvr.TheApp" android:theme="@android:style/Theme.NoTitleBar">
+        <meta-data android:name="compile" android:value="2017-09-23 11:39:31/170000000_com.syu.dvr"/>
+        <activity android:clearTaskOnLaunch="true" android:launchMode="singleTask" android:name="com.syu.dvr.activity.MainActivity" android:process=":main">
+            <intent-filter>
+                <action android:name="com.syu.dvr"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.syu.dvr.activity.BaseActivity"/>
+        <activity android:name="com.syu.dvr.activity.SetActivity"/>
+        <activity android:hardwareAccelerated="true" android:name="com.syu.dvr.activity.EditFileActivity"/>
+        <activity android:name="com.syu.dvr.activity.FillActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.syu.dvr.activity.CalendarActivity"/>
+         <activity android:launchMode="singleTask" android:name="com.syu.dvr.activity.CameraPlayBackActivity"/>
+        <activity android:name="com.syu.dvr.activity.SystemUpgrade" android:process=":main"/>
+        
+       <service android:name="com.syu.dvr.server.CollisionVideoService" android:process=":main"> 
+            <intent-filter>
+               <action android:name="android.com.syu.dvr.UP_NOTIFICATION"/>
+               <action android:name="android.com.syu.dvr.action.LOCKE"/>
+               <action android:name="android.com.syu.dvr.action.RECORD"/>
+               <action android:name="android.com.syu.dvr.action.SHURTPHOTO"/>
+               <action android:name="android.com.syu.dvr.action.VIDEO"/>
+               <action android:name="android.com.syu.dvr.action.PHOTO"/>
+               <action android:name="android.com.syu.dvr.action.ACCLOADRECORD"/>
+           </intent-filter>
+       </service> 
+       
+    </application>
+
+</manifest>

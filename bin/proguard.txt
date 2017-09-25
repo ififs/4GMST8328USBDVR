@@ -1,0 +1,74 @@
+# view res/layout/carousel_layout.xml #generated:12
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.syu.dvr.TheApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.syu.dvr.activity.BaseActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.syu.dvr.activity.CalendarActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.syu.dvr.activity.CameraPlayBackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.syu.dvr.activity.EditFileActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.syu.dvr.activity.FillActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.syu.dvr.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.syu.dvr.activity.SetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.syu.dvr.activity.SystemUpgrade { <init>(...); }
+
+# view res/layout/fragment_activity.xml #generated:12
+-keep class com.syu.dvr.fragment.MainFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.syu.dvr.server.CollisionVideoService { <init>(...); }
+
+# view res/layout/layout_pip.xml #generated:6
+-keep class com.syu.dvr.view.CameraTextureView { <init>(...); }
+
+# view res/layout/list_photo_item.xml #generated:14
+-keep class com.syu.dvr.view.MarqueeTextView { <init>(...); }
+
+# view res/layout/upgrade_manager_layout.xml #generated:22
+-keep class com.syu.dvr.widget.DownLoadLayout { <init>(...); }
+
+# view res/layout/layout_edit_file.xml #generated:18
+-keep class com.syu.dvr.widget.EditFileLayout { <init>(...); }
+
+# view res/layout/item_grid.xml #generated:22
+-keep class com.syu.dvr.widget.MGridView { <init>(...); }
+
+# view res/layout/layout_setting.xml #generated:42
+# view res/layout/layout_setting.xml #generated:46
+# view res/layout/layout_setting.xml #generated:50
+# view res/layout/layout_setting.xml #generated:54
+# view res/layout/layout_setting.xml #generated:58
+-keep class com.syu.dvr.widget.SettingButton { <init>(...); }
+
+# view res/layout/layout_setting.xml #generated:14
+# view res/layout/layout_setting.xml #generated:19
+# view res/layout/layout_setting.xml #generated:24
+# view res/layout/layout_setting.xml #generated:29
+-keep class com.syu.dvr.widget.SettingLayout { <init>(...); }
+
+# view res/layout/layout_setting.xml #generated:34
+# view res/layout/layout_setting.xml #generated:38
+-keep class com.syu.dvr.widget.SettingSwitch { <init>(...); }
+
+# view res/layout/layout_main.xml #generated:11
+-keep class com.syu.dvr.widget.StateSignLayout { <init>(...); }
+
+# onClick res/layout/layout_playback.xml #generated:18
+-keepclassmembers class * { *** OnClick(...); }
+
